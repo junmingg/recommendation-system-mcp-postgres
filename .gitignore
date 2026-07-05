@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+dist/
+*.egg-info/
+data/
+models/
+*.pyc
+.pytest_cache/
+
+# Remotion animation source (only the rendered assets/demo.gif is shipped)
+remotion/
+
+# Portfolio-only media (used by the separate portfolio repo's video card, not this README)
+assets/mcp-demo.mp4
+assets/mcp-demo.jpg
+
+# Internal docs — keep out of the public repo
+RESEARCH_LOG.md
+mcp-postgres-server-plan.md
